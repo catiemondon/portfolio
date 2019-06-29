@@ -18,11 +18,15 @@
 
 	ul {
 		list-style: disc;
+		display: flex;
 		margin: 0 0 _size(element-margin) 0;
+		flex-direction: column;
+		
 		padding-left: 1em;
 
 		li {
 			padding-left: 0.5em;
+			margin-bottom: 1em;
 		}
 
 		&.alt {
@@ -32,6 +36,7 @@
 			li {
 				border-top: solid _size(border-width) _palette(border);
 				padding: 0.5em 0;
+				width: 100%;
 
 				&:first-child {
 					border-top: 0;
@@ -46,7 +51,7 @@
 			padding-left: 0;
 
 			li {
-				display: inline-block;
+				display: inline-flex;
 				padding: 0 0.75em 0 0;
 
 				&:last-child {
@@ -153,6 +158,7 @@
 					display: block;
 					text-align: center;
 					width: 100%;
+					
 
 					&:first-child {
 						padding-top: 0;
@@ -195,4 +201,41 @@
 		dd {
 			margin-left: _size(element-margin);
 		}
+	}
+
+
+
+	p{
+		margin-left: 1.4em;
+		
+		font-size: 1.3em;
+		:hover{
+			color: orange;
+		}
+	}
+
+	.icons li:hover{
+		color: orange;
+		cursor: pointer;
+	}
+
+	.skills{
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+
+	.skills span{
+		margin-left: 2em;
+		margin-right: .4em;
+		margin-top: 1.1em;
+		font-size: .6em;
+	}
+
+	.skills p:hover{
+		color: orange;
+	}
+
+	.link a{
+		
 	}
