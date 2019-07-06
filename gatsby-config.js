@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Catie Mondon, Web Developer",
     author: "Catie Mondon",
-    description: "A portfolio site for Catie Mondon"
+    description: "Catie Mondons portfolio site"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -15,7 +15,7 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        
+        icon: 'src/images/flower.png', // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-sass',
