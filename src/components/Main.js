@@ -36,7 +36,7 @@ class Main extends React.Component {
           <p>Express.js</p><span className='icon fa-circle'></span>
           <p>Massive.js</p>
           <p>Git</p><span className='icon fa-circle'></span>
-          <p>JIRA</p>
+          <p>Jira</p>
           </div>
           
           {close}
@@ -44,8 +44,21 @@ class Main extends React.Component {
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Projects</h2>
+          <h3>ChartSmart</h3>
           <span className="image main"><img src={pic03} alt="" /></span>
-          <p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+          <p className="techs">React || PostgreSQL || Express || Bcrypt || Styled Components || Node.js || HTML5 || Axios || Chart.js</p>
+          <h4>July 2019: ChartSmart</h4>
+          <p className='proj_desc'>A group developed project created to help doctors be able do their charting and have a clean, easy way to show their patients how their health is trending over time. Patients may login into their office created profile to see charts of their bloodwork and vital results over time.</p>
+          <p className='proj_links'>Live Site: <a href='https://chartsmart.us'>chartsmart.us</a></p>
+          <p className='proj_links'>GitHub Repo: <a href='https://github.com/medic-wlh5/ChartSmart'>github.com/medic-wlh5/ChartSmart</a></p>
+
+          <h3>FoodMood</h3>
+          <span className="image main"><img src={pic03} alt="" /></span>
+          <p className="techs">React || PostgreSQL || Express || Bcrypt || Styled Components || Node.js || HTML5 || Axios</p>
+          <h4>June 2019: FoodMood</h4>
+          <p className='proj_desc'>A personally developed project created to be a "dish first" based food search app, unlike other apps in the space that focus on restaurant based search results. Users can find dishes in the location they select, can filter by category, and may add dishes to their favorites if they have a profile.</p>
+          <p className='proj_links'>Live Site: <a href='https://thefoodmood.us'>thefoodmood.us</a></p>
+          <p className='proj_links'>GitHub Repo: <a href='https://github.com/catiemondon/FoodMood'>github.com/catiemondon/FoodMood</a></p>
           {close}
         </article>
 
