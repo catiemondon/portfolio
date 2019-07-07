@@ -5,6 +5,7 @@ import PropTypes from 'prop-types'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 import profilepic from '../images/profilepic.jpg'
+import foodmood from '../images/foodmood.mp4'
 
 class Main extends React.Component {
   render() {
@@ -53,7 +54,11 @@ class Main extends React.Component {
           <p className='proj_links'>GitHub Repo: <a href='https://github.com/medic-wlh5/ChartSmart'>github.com/medic-wlh5/ChartSmart</a></p>
 
           <h3>FoodMood</h3>
-          <span className="image main"><img src={pic03} alt="" /></span>
+          <span className="image main">
+          <video width='100%' controls>
+            <source src={foodmood} type='video/mp4'></source>
+          </video>
+          </span>
           <p className="techs">React || PostgreSQL || Express || Bcrypt || Styled Components || Node.js || HTML5 || Axios</p>
           <h4>June 2019: FoodMood</h4>
           <p className='proj_desc'>A personally developed project created to be a "dish first" based food search app, unlike other apps in the space that focus on restaurant based search results. Users can find dishes in the location they select, can filter by category, and may add dishes to their favorites if they have a profile.</p>
