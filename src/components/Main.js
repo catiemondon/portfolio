@@ -45,7 +45,7 @@ class Main extends React.Component {
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Projects</h2>
-          <h3>ChartSmart</h3>
+          <h3>ChartSmart </h3>
           <span className="image main"><img src={pic03} alt="" /></span>
           <p className="techs">React  || PostgreSQL || Express || Bcrypt || Styled Components || Node.js || HTML5 || Axios || Chart.js</p>
           <h4>July 2019: ChartSmart</h4>
