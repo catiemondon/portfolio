@@ -46,7 +46,9 @@ class Main extends React.Component {
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Projects</h2>
           <h3>ChartSmart </h3>
-          <span className="image main"><img src={pic03} alt="" /></span>
+          <span className="image main">
+          <embed src="https://www.youtube.com/embed/dZpB80auU3w" allowfullscreen="true" width="100%" height="300vh"/>
+          </span>
           <p className="techs">React  || PostgreSQL || Express || Bcrypt || Styled Components || Node.js || HTML5 || Axios || Chart.js</p>
           <h4>July 2019: ChartSmart</h4>
           <p className='proj_desc'>A group developed project created to help doctors be able do their charting and have a clean, easy way to show their patients how their health is trending over time. Patients may login into their office created profile to see charts of their bloodwork and vital results over time.</p>
