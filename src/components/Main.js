@@ -37,7 +37,8 @@ class Main extends React.Component {
           <p>Express.js</p><span className='icon fa-circle'></span>
           <p>Massive.js</p>
           <p>Git</p><span className='icon fa-circle'></span>
-          <p>Jira</p>
+          <p>Jira</p><span className='icon fa-circle'></span>
+          <p>Styled Components</p>
           </div>
           
           {close}
@@ -47,9 +48,9 @@ class Main extends React.Component {
           <h2 className="major">Projects</h2>
           <h3>ChartSmart </h3>
           <span className="image main">
-          <embed src="https://www.youtube.com/embed/dZpB80auU3w" allowfullscreen="true" width="100%" height="300vh"/>
+          <iframe src="https://www.youtube.com/embed/dZpB80auU3w"  width="100%" height="300vh" allowfullscreen/>
           </span>
-          <p className="techs">React  || PostgreSQL || Express || Bcrypt || Styled Components || Node.js || HTML5 || Axios || Chart.js</p>
+          <p className="techs">React  || PostgreSQL || Express || Bcrypt ||  Node.js || HTML5 || Axios || Chart.js</p>
           <h4>July 2019: ChartSmart</h4>
           <p className='proj_desc'>A group developed project created to help doctors be able do their charting and have a clean, easy way to show their patients how their health is trending over time. Patients may login into their office created profile to see charts of their bloodwork and vital results over time.</p>
           <p className='proj_links'>Live Site: <a href='https://chartsmart.us'>chartsmart.us</a></p>
