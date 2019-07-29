@@ -92,12 +92,12 @@ class Main extends React.Component {
           </form> */}
           <ul className="icons">
             
-            <li><a href="mailto:cathmond25@gmail.com" className="icon fa-envelope"><span className="label">Email</span></a> <p>cathmond25@gmail.com</p></li>
+            <li><a href="mailto:cathmond25@gmail.com" className="icon fa-envelope"><span className="label">Email</span></a><a href="mailto:cathmond25@gmail.com" style={{border:'none'}}><p>cathmond25@gmail.com</p></a></li>
           
-            <li><a href="https://www.linkedin.com/in/catie-mondon/" className="icon fa-linkedin"><span className="label">LinkedIn</span></a> <p>linkedin.com/in/catie-mondon</p></li>
+            <li><a href="https://www.linkedin.com/in/catie-mondon/" className="icon fa-linkedin"><span className="label">LinkedIn</span></a> <a href="https://www.linkedin.com/in/catie-mondon/" style={{border: 'none'}}><p>linkedin.com/in/catie-mondon</p></a></li>
             
             
-            <li><a href="https://github.com/catiemondon" className="icon fa-github"><span className="label">GitHub</span></a><p>github.com/catiemondon</p></li>
+            <li><a href="https://github.com/catiemondon" className="icon fa-github"><span className="label">GitHub</span></a><a href="https://github.com/catiemondon"style={{border:'none'}}><p>github.com/catiemondon</p></a></li>
             
           </ul>
           {close}
