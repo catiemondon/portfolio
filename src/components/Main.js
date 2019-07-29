@@ -38,7 +38,8 @@ class Main extends React.Component {
           <p>Massive.js</p>
           <p>Git</p><span className='icon fa-circle'></span>
           <p>Jira</p><span className='icon fa-circle'></span>
-          <p>Styled Components</p>
+          <p>Styled Components</p> <span className='icon fa-circle'></span>
+          <p>Chart.js</p>
           </div>
           
           {close}
