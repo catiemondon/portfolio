@@ -49,7 +49,7 @@ class Main extends React.Component {
           <h2 className="major">Projects</h2>
           <h3>ChartSmart </h3>
           <span className="image main">
-          <iframe src="https://www.youtube.com/embed/dZpB80auU3w"  width="100%" height="300vh" allowfullscreen/>
+          <iframe src="https://www.youtube.com/embed/dZpB80auU3w"  allowFullScreen frameBorder="0"/>
           </span>
           <p className="techs">React  || PostgreSQL || Express || Bcrypt ||  Node.js || HTML5 || Axios || Chart.js</p>
           <h4>July 2019: ChartSmart</h4>
