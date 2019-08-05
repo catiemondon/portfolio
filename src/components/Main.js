@@ -40,6 +40,7 @@ class Main extends React.Component {
           <p>Jira</p><span className='icon fa-circle'></span>
           <p>Styled Components</p> <span className='icon fa-circle'></span>
           <p>Chart.js</p>
+          <p>Gatsby.js</p>
           </div>
           
           {close}
