@@ -26,21 +26,38 @@ class Main extends React.Component {
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Skills</h2>
+          <h2 className='skillsbd'>Languages</h2>
           <div className='skills'>
-          <p>React</p> <span className='icon fa-circle'></span>
-          <p>Javacript</p><span className='icon fa-circle'></span>
+          <p>Javascript</p> <span className='icon fa-circle'></span>
+          <p>Python</p><span className='icon fa-circle'></span>
           <p>HTML5</p><span className='icon fa-circle'></span>
-          <p>CSS3</p><span className='icon fa-circle'></span>
-          <p>Redux</p>
-          <p>PostgreSQL</p><span className='icon fa-circle'></span>
+          <p>CSS3</p>
+          </div>
+          <h2 className='skillsbd'>Frameworks & Libraries</h2>
+          <div className='skills'>
+          <p>React</p><span className='icon fa-circle'></span>
           <p>Node.js</p><span className='icon fa-circle'></span>
           <p>Express.js</p><span className='icon fa-circle'></span>
-          <p>Massive.js</p>
-          <p>Git</p><span className='icon fa-circle'></span>
-          <p>Jira</p><span className='icon fa-circle'></span>
-          <p>Styled Components</p> <span className='icon fa-circle'></span>
-          <p>Chart.js</p>
-          <p>Gatsby.js</p>
+          <p>Massive.js</p><span className='icon fa-circle'></span>
+          <p>Flask</p><span className='icon fa-circle'></span>
+          <p>Django</p><span className='icon fa-circle'></span>
+          <p>Bulma.io</p>
+          
+          </div>
+          <h2 className='skillsbd'>Databases</h2>
+          <div className='skills'>
+          <p>PostgreSQL</p><span className='icon fa-circle'></span>
+          <p>SQLite</p> 
+          
+          </div>
+          <h2 className='skillsbd'>Extra Technologies</h2>
+          <div className='skills'>
+          <p>Chart.js</p><span className='icon fa-circle'></span>
+          <p>Gatsby.js</p><span className='icon fa-circle'></span>
+        
+          <p>Styled Components</p><span className='icon fa-circle'></span>
+          <p>Jira</p>
+          <p>Git</p>
           </div>
           
           {close}
@@ -48,7 +65,7 @@ class Main extends React.Component {
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major"> Projects</h2>
-          <h2 className="major">Capstone Projects</h2>
+          <h2 className="skillsbd">Capstone Projects</h2>
           <h3>ChartSmart </h3>
           <span className="image main">
           <iframe src="https://www.youtube.com/embed/dZpB80auU3w"  allowFullScreen frameBorder="0"/>
@@ -70,7 +87,7 @@ class Main extends React.Component {
           <p className='proj_desc'>A personally developed project created to be a "dish first" based food search app, unlike other apps in the space that focus on restaurant based search results. Users can find dishes in the location they select, can filter by category, and may add dishes to their favorites if they have a profile.</p>
           <p className='proj_links'>Live Site: <a href='https://thefoodmood.us'>thefoodmood.us</a></p>
           <p className='proj_links'>GitHub Repo: <a href='https://github.com/catiemondon/FoodMood'>github.com/catiemondon/FoodMood</a></p>
-          <h2 className="major">Mini Projects</h2>
+          <h2 className="skillsbd">Mini Projects</h2>
           <h3>FlaskAuth </h3>
           <span className="image main">
           <iframe src="https://www.youtube.com/embed/0QBhJ--Wlfw"  allowFullScreen frameBorder="0"/>
