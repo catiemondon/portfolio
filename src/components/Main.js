@@ -39,6 +39,8 @@ class Main extends React.Component {
           <p>Node.js</p><span className='icon fa-circle'></span>
           <p>Express.js</p><span className='icon fa-circle'></span>
           <p>Massive.js</p><span className='icon fa-circle'></span>
+          <p>Redux.js</p><span className='icon fa-circle'></span>
+          <p>React Redux</p><span className='icon fa-circle'></span>
           <p>Flask</p><span className='icon fa-circle'></span>
           <p>Django</p><span className='icon fa-circle'></span>
           <p>Bulma.io</p>
@@ -54,11 +56,13 @@ class Main extends React.Component {
           <div className='skills'>
           <p>Chart.js</p><span className='icon fa-circle'></span>
           <p>Gatsby.js</p><span className='icon fa-circle'></span>
-        
+
           <p>Styled Components</p><span className='icon fa-circle'></span>
-          <p>Axios</p>
+          <p>.ENV</p>
+          <p>Axios</p><span className='icon fa-circle'></span>
           <p>Jira</p><span className='icon fa-circle'></span>
-          <p>Git</p>
+          <p>Git</p><span className='icon fa-circle'></span>
+          <p>Netlify</p>
           </div>
           
           {close}
