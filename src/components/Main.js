@@ -58,7 +58,6 @@ class Main extends React.Component {
           <p>Gatsby.js</p><span className='icon fa-circle'></span>
 
           <p>Styled Components</p><span className='icon fa-circle'></span>
-          <p>.ENV</p>
           <p>Axios</p><span className='icon fa-circle'></span>
           <p>Jira</p><span className='icon fa-circle'></span>
           <p>Git</p><span className='icon fa-circle'></span>
@@ -73,7 +72,9 @@ class Main extends React.Component {
           <h2 className="skillsbd">Capstone Projects</h2>
           <h3>ChartSmart </h3>
           <span className="image main">
+          
           <iframe src="https://www.youtube.com/embed/dZpB80auU3w"  allowFullScreen frameBorder="0"/>
+        
           </span>
           <p className="techs">React  || PostgreSQL || Express || Bcrypt ||  Node.js || HTML5 || Axios || Chart.js</p>
           <h4>July 2019: ChartSmart</h4>
@@ -83,9 +84,11 @@ class Main extends React.Component {
 
           <h3>FoodMood</h3>
           <span className="image main">
+       
           <video width='100%' controls>
             <source src={foodmood} type='video/mp4'></source>
           </video>
+         
           </span>
           <p className="techs">React || PostgreSQL || Express || Bcrypt || Styled Components || Node.js || HTML5 || Axios</p>
           <h4>June 2019: FoodMood</h4>
