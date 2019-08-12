@@ -114,6 +114,26 @@ class Main extends React.Component {
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Contact</h2>
           <form name="contact" method="POST" data-netlify="true">
+          <p>
+            <label>Your Name: <input type="text" name="name" /></label>   
+          </p>
+          <p>
+            <label>Your Email: <input type="email" name="email" /></label>
+          </p>
+          <p>
+            <label>Your Role: <select name="role[]" multiple>
+              <option value="leader">Leader</option>
+              <option value="follower">Follower</option>
+            </select></label>
+          </p>
+          <p>
+        < label>Message: <textarea name="message"></textarea></label>
+        </p>
+          <p>
+          <button type="submit">Send</button>
+          </p>
+        </form>
+          {/* <form name="contact" method="POST" data-netlify="true">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -130,7 +150,7 @@ class Main extends React.Component {
               <li><input type="submit" value="Send Message" className="special" /></li>
               <li><input type="reset" value="Reset" /></li>
             </ul>
-          </form>
+          </form> */}
           <ul className="icons">
             
             <li><a href="mailto:cathmond25@gmail.com" className="icon fa-envelope"><span className="label">Email</span></a><a href="mailto:cathmond25@gmail.com" style={{border:'none'}}><p>cathmond25@gmail.com</p></a></li>
