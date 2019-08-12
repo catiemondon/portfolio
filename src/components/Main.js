@@ -113,7 +113,7 @@ class Main extends React.Component {
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Contact</h2>
-          <form name="contact" method="POST" data-netlify="true" action='/page-2'>
+          <form name="cont" method="POST" data-netlify="true" action='/page-2'>
           <p>
             <label>Your Name: <input type="text" name="name" /></label>   
           </p>
