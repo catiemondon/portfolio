@@ -43,7 +43,9 @@ class Main extends React.Component {
           <p>React Redux</p><span className='icon fa-circle'></span>
           <p>Flask</p><span className='icon fa-circle'></span>
           <p>Django</p><span className='icon fa-circle'></span>
-          <p>Bulma.io</p>
+          <p>Bulma.io</p><span className='icon fa-circle'></span>
+          <p>Jest</p><span className='icon fa-circle'></span>
+          <p>Cypress</p>
           
           </div>
           <h2 className='skillsbd'>Databases</h2>
@@ -59,6 +61,7 @@ class Main extends React.Component {
 
           <p>Styled Components</p><span className='icon fa-circle'></span>
           <p>Axios</p><span className='icon fa-circle'></span>
+          <p>Bcrypt</p><span className='icon fa-circle'></span>
           <p>Jira</p><span className='icon fa-circle'></span>
           <p>Git</p><span className='icon fa-circle'></span>
           <p>Netlify</p>
