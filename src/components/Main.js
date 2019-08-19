@@ -30,6 +30,7 @@ class Main extends React.Component {
           <div className='skills'>
           <p>Javascript</p> <span className='icon fa-circle'></span>
           <p>Python</p><span className='icon fa-circle'></span>
+          <p>PHP</p><span className='icon fa-circle'></span>
           <p>HTML5</p><span className='icon fa-circle'></span>
           <p>CSS3</p>
           </div>
