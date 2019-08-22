@@ -2,8 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+
+
 import profilepic from '../images/profilepic.jpg'
 import foodmood from '../images/foodmood.mp4'
 
@@ -18,8 +18,10 @@ class Main extends React.Component {
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About</h2>
           <span className="image main"><img src={profilepic} alt="" /></span>
-          <p>After working in the tech industry for several years and falling absolutely in love with the space, I decided to take the leap and become a web developer. Working closely with marketing, product managers, and web developers in both a small start up environment and for a bigger corporation taught me how to collaborate across teams, communicate effectively, and how to juggle different sets of priorities. 
-          In my free time I enjoy hiking with my dog, checking out new brunch spots, and traveling.</p>
+          <p>After working in the tech industry for several years and falling absolutely in love with the space, I decided to take the leap and become a web developer. Working closely with marketing, product managers, and web developers in both a small start up environment and for a bigger corporation taught me how to collaborate across teams, communicate effectively, and how to juggle different sets of priorities. </p>
+          <p>
+          Some of my strengths are that I am detail oriented, a thorough planner, and attack problems in an analytical way. I love learning new things, and enjoy the challenge of tackling new concepts and pushing myself outside of my comfort zone. </p>
+         <p> In my free time I enjoy hiking with my dogs, checking out new brunch spots, and traveling with my boyfriend.</p>
          
           {close}
         </article>
