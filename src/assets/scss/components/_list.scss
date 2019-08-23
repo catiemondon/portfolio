@@ -21,7 +21,7 @@
 		display: flex;
 		margin: 0 0 _size(element-margin) 0;
 		flex-direction: column;
-		
+		align-items: center;
 		padding-left: 1em;
 
 		li {
@@ -55,7 +55,7 @@
 				padding: 0 0.75em 0 0;
 
 				&:last-child {
-					padding-right: 0;
+					padding-right: 0 0.75em 0 0;
 				}
 
 				a:first-child {
@@ -216,6 +216,7 @@
 		}
 	}
 
+	
 	.icons li:hover{
 		color: #e88666;
 		cursor: pointer;
@@ -273,4 +274,14 @@
 	}
 a p{
 	margin-top: .3em;
+}
+
+a button{
+	margin-left: 1em;
+	height: 3.1em;
+	min-width: 12em;
+}
+
+#icon{
+	margin-top: .18em;
 }

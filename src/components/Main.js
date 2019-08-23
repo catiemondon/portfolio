@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 
 
 
-
 import profilepic from '../images/profilepic.jpg'
 import foodmood from '../images/foodmood.mp4'
 
@@ -17,6 +16,7 @@ class Main extends React.Component {
 
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About</h2>
+       
           <span className="image main"><img src={profilepic} alt="" /></span>
           <p>After working in the tech industry for several years and falling absolutely in love with the space, I decided to take the leap and become a web developer. Working closely with marketing, product managers, and web developers in both a small start up environment and for a bigger corporation taught me how to collaborate across teams, communicate effectively, and how to juggle different sets of priorities. </p>
           <p>
@@ -115,7 +115,7 @@ class Main extends React.Component {
         </article>
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">Contact</h2>
+         
          
         
           {/* <form name="contact" method="POST" data-netlify="true">
@@ -137,13 +137,14 @@ class Main extends React.Component {
             </ul>
           </form> */}
           <ul className="icons">
+          <h2 className="major">Contact</h2>
             
-            <li><a href="mailto:cathmond25@gmail.com" className="icon fa-envelope"><span className="label">Email</span></a><a href="mailto:cathmond25@gmail.com" style={{border:'none'}}><p>cathmond25@gmail.com</p></a></li>
+            <li><a href="mailto:cathmond25@gmail.com" className="icon fa-envelope" id='icon'><span className="label">Email</span></a><a href="mailto:cathmond25@gmail.com" style={{border:'none'}}><button>Email</button></a></li>
           
-            <li><a href="https://www.linkedin.com/in/catie-mondon/" className="icon fa-linkedin"><span className="label">LinkedIn</span></a> <a href="https://www.linkedin.com/in/catie-mondon/" style={{border: 'none'}}><p>linkedin.com/in/catie-mondon</p></a></li>
+            <li><a href="https://www.linkedin.com/in/catie-mondon/" className="icon fa-linkedin" id='icon'><span className="label">LinkedIn</span></a> <a href="https://www.linkedin.com/in/catie-mondon/" style={{border: 'none'}}><button>LinkedIn</button></a></li>
             
             
-            <li><a href="https://github.com/catiemondon" className="icon fa-github"><span className="label">GitHub</span></a><a href="https://github.com/catiemondon"style={{border:'none'}}><p>github.com/catiemondon</p></a></li>
+            <li><a href="https://github.com/catiemondon" className="icon fa-github" id='icon'><span className="label">GitHub</span></a><a href="https://github.com/catiemondon"style={{border:'none'}}><button>github</button></a></li>
             
           </ul>
           {close}
