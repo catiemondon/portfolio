@@ -5,6 +5,7 @@ import PropTypes from 'prop-types'
 
 import profilepic from '../images/profilepic.jpg'
 import foodmood from '../images/foodmood.mp4'
+import resume from '../resume/Catie-Mondon-Resume.pdf'
 
 class Main extends React.Component {
   render() {
@@ -144,7 +145,9 @@ class Main extends React.Component {
             <li><a href="https://www.linkedin.com/in/catie-mondon/" className="icon fa-linkedin" id='icon'><span className="label">LinkedIn</span></a> <a href="https://www.linkedin.com/in/catie-mondon/" style={{border: 'none'}}><button>LinkedIn</button></a></li>
             
             
-            <li><a href="https://github.com/catiemondon" className="icon fa-github" id='icon'><span className="label">GitHub</span></a><a href="https://github.com/catiemondon"style={{border:'none'}}><button>github</button></a></li>
+            <li><a href="https://github.com/catiemondon" className="icon fa-github" id='icon'><span className="label">GitHub</span></a><a href="https://github.com/catiemondon"style={{border:'none'}}><button>Github</button></a></li>
+
+            <li><a href="https://github.com/catiemondon" className="icon fa-download" id='icon'><span className="label">Resume</span></a><a href={resume} download="Catie-Mondon-Resume" style={{border:'none'}}><button>Resume</button></a></li>
             
           </ul>
           {close}
