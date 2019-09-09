@@ -66,6 +66,7 @@ class Main extends React.Component {
           <p>Styled Components</p><span className='icon fa-circle'></span>
           <p>Axios</p><span className='icon fa-circle'></span>
           <p>Bcrypt</p><span className='icon fa-circle'></span>
+          <p>AWS</p><span className='icon fa-circle'></span>
           <p>Jira</p><span className='icon fa-circle'></span>
           <p>Git</p><span className='icon fa-circle'></span>
           <p>Netlify</p>
