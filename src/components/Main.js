@@ -49,12 +49,14 @@ class Main extends React.Component {
           <p>Django</p><span className='icon fa-circle'></span>
           <p>Bulma.io</p><span className='icon fa-circle'></span>
           <p>Jest</p><span className='icon fa-circle'></span>
+          <p>Newman</p><span className='icon fa-circle'></span>
           <p>Cypress</p>
           
           </div>
           <h2 className='skillsbd'>Databases</h2>
           <div className='skills'>
           <p>PostgreSQL</p><span className='icon fa-circle'></span>
+          <p>MongoDB</p><span className='icon fa-circle'></span>
           <p>SQLite</p> 
           
           </div>
@@ -62,12 +64,15 @@ class Main extends React.Component {
           <div className='skills'>
           <p>Chart.js</p><span className='icon fa-circle'></span>
           <p>Gatsby.js</p><span className='icon fa-circle'></span>
-
+          <p>Commander.js</p><span className='icon fa-circle'></span>
           <p>Styled Components</p><span className='icon fa-circle'></span>
           <p>Axios</p><span className='icon fa-circle'></span>
           <p>Bcrypt</p><span className='icon fa-circle'></span>
           <p>AWS</p><span className='icon fa-circle'></span>
+          <p>Postman</p><span className='icon fa-circle'></span>
+          
           <p>Jira</p><span className='icon fa-circle'></span>
+          
           <p>Git</p><span className='icon fa-circle'></span>
           <p>Netlify</p>
           </div>
